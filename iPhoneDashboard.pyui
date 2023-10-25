@@ -1,0 +1,87 @@
+[
+  {
+    "nodes": [
+      {
+        "nodes": [
+          {
+            "nodes": [],
+            "frame": "{{15, 15}, {70, 30}}",
+            "class": "Button",
+            "attributes": {
+              "flex": "WHLRTB",
+              "action": "load_post_leads_view",
+              "border_width": 1,
+              "title": "Post Leads",
+              "uuid": "9F219083-070D-431C-AEA0-71F99F666DCF",
+              "class": "Button",
+              "corner_radius": 5,
+              "border_color": "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "name": "toPostLeads",
+              "font_size": 12
+            },
+            "selected": false
+          },
+          {
+            "nodes": [],
+            "frame": "{{15, 50}, {70, 30}}",
+            "class": "Button",
+            "attributes": {
+              "action": "load_commenter_leads_view",
+              "flex": "WHLRTB",
+              "border_width": 1,
+              "title": "Commenter Leads",
+              "uuid": "0454B9CF-6AB8-4AAC-8A1E-6512CA88090C",
+              "class": "Button",
+              "corner_radius": 5,
+              "border_color": "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "name": "toCommenterLeads",
+              "font_size": 12
+            },
+            "selected": false
+          },
+          {
+            "nodes": [],
+            "frame": "{{15, 85}, {70, 30}}",
+            "class": "Button",
+            "attributes": {
+              "border_width": 1,
+              "flex": "WHLRTB",
+              "action": "toggle_dark_theme",
+              "title": "Dashboard",
+              "uuid": "99FF4A34-AF6F-4B88-B8D8-5F5DBCDD1F2C",
+              "class": "Button",
+              "corner_radius": 5,
+              "border_color": "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "name": "button1",
+              "font_size": 12
+            },
+            "selected": false
+          }
+        ],
+        "frame": "{{120, 100}, {100, 130}}",
+        "class": "View",
+        "attributes": {
+          "border_width": 2,
+          "alpha": 0.90000000000000002,
+          "flex": "WH",
+          "border_color": "RGBA(0.742925,0.742925,0.742925,1.000000)",
+          "corner_radius": 10,
+          "class": "View",
+          "uuid": "AA9C4FA1-ED24-4364-AC3C-E8A915010253",
+          "name": "navbar"
+        },
+        "selected": false
+      }
+    ],
+    "frame": "{{0, 0}, {340, 480}}",
+    "class": "View",
+    "attributes": {
+      "enabled": true,
+      "tint_color": "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name": "Dashboard",
+      "border_color": "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex": ""
+    },
+    "selected": false
+  }
+]

@@ -1,0 +1,381 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 0}, {405, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "font_name" : "<System-Bold>",
+              "frame" : "{{134, 122}, {150, 32}}",
+              "uuid" : "17048B2D-1B9F-4180-B355-04C8A8960A6D",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Original Post",
+              "name" : "originalPostLabel",
+              "font_size" : 14
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 29}, {52, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "font_name" : "<System-Bold>",
+              "frame" : "{{134, 122}, {150, 32}}",
+              "uuid" : "BBC513C9-EF2C-4050-BEAB-C99148DE32F6",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Title: ",
+              "font_size" : 14,
+              "name" : "postTitleLabel"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 108}, {322, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System-Bold>",
+              "frame" : "{{134, 122}, {150, 32}}",
+              "uuid" : "5A64E2A0-6FA3-41A8-B68E-5CE33BC19029",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Details:",
+              "font_size" : 14,
+              "name" : "postDetailsLabel"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 141}, {322, 102}}",
+            "class" : "TextView",
+            "attributes" : {
+              "flex" : "WH",
+              "font_name" : "<System>",
+              "editable" : false,
+              "frame" : "{{109, 38}, {200, 200}}",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "uuid" : "1B79A4BA-E2C9-425D-9D6F-54AC19083F5D",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "name" : "postDetails",
+              "font_size" : 14
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{56, 29}, {272, 46}}",
+            "class" : "TextView",
+            "attributes" : {
+              "flex" : "WH",
+              "font_name" : "<System>",
+              "editable" : false,
+              "frame" : "{{109, 124}, {200, 200}}",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "uuid" : "1D790E07-601A-44FF-8ECA-31F3FD68322D",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "name" : "postTitle",
+              "font_size" : 12
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 61}, {77, 23}}",
+            "class" : "Label",
+            "attributes" : {
+              "font_name" : "<System-Bold>",
+              "frame" : "{{134, 208}, {150, 32}}",
+              "uuid" : "BFDFC15E-5BF4-441C-BB0C-E2FA549DB6F5",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Author:",
+              "name" : "postAuthorLabel",
+              "font_size" : 14
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{85, 61}, {246, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "W",
+              "font_name" : "<System>",
+              "frame" : "{{134, 208}, {150, 32}}",
+              "uuid" : "AC0700CD-B5E0-4035-A0C6-370E5358C749",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Label",
+              "name" : "postAuthor",
+              "font_size" : 12
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 83}, {102, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "font_name" : "<System-Bold>",
+              "frame" : "{{134, 208}, {150, 32}}",
+              "uuid" : "AFA4611B-9A74-4246-846C-16AFE4D57CFE",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "SubReddit:",
+              "font_size" : 14,
+              "name" : "postSubredditLabel"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{110, 83}, {218, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "W",
+              "font_name" : "<System>",
+              "frame" : "{{134, 208}, {150, 32}}",
+              "uuid" : "E0002BCE-651D-4571-85BB-925BB57E5AF4",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Label",
+              "font_size" : 12,
+              "name" : "postSubreddit"
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{13, 6}, {334, 249}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "W",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+          "corner_radius" : 5,
+          "class" : "View",
+          "uuid" : "E9FCC76B-4E03-43C1-B809-1F3096CD18E8",
+          "name" : "originalPostView"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 0}, {405, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "name" : "aiGeneratedMessageLabel",
+              "frame" : "{{134, 122}, {150, 32}}",
+              "uuid" : "17048B2D-1B9F-4180-B355-04C8A8960A6D",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "AI Generated Message",
+              "font_size" : 18,
+              "font_name" : "<System-Bold>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 29}, {97, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 18,
+              "frame" : "{{134, 122}, {150, 32}}",
+              "uuid" : "BBC513C9-EF2C-4050-BEAB-C99148DE32F6",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Message: ",
+              "name" : "messageLabel",
+              "font_name" : "<System-Bold>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 58}, {322, 239}}",
+            "class" : "TextView",
+            "attributes" : {
+              "flex" : "WH",
+              "name" : "aiMessage",
+              "editable" : true,
+              "frame" : "{{109, 38}, {200, 200}}",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "uuid" : "1B79A4BA-E2C9-425D-9D6F-54AC19083F5D",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 15,
+              "font_name" : "<System>"
+            },
+            "selected" : true
+          }
+        ],
+        "frame" : "{{13, 272}, {334, 303}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "WHB",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+          "corner_radius" : 5,
+          "class" : "View",
+          "uuid" : "E9FCC76B-4E03-43C1-B809-1F3096CD18E8",
+          "name" : "aiGeneratedMessageView"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{207.5, 21}, {102.5, 46}}",
+            "class" : "Button",
+            "attributes" : {
+              "border_width" : 2,
+              "action" : "send_message_and_switch_message_post_leads",
+              "flex" : "WL",
+              "frame" : "{{355, 34}, {80, 32}}",
+              "title" : "Send Direct Message",
+              "uuid" : "BEFA13EB-7193-446C-9CDD-481383BD25D5",
+              "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "class" : "Button",
+              "corner_radius" : 5,
+              "name" : "button1",
+              "font_size" : 15
+            },
+            "selected" : true
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{10, 21}, {102.5, 46}}",
+            "class" : "Button",
+            "attributes" : {
+              "border_width" : 2,
+              "flex" : "WR",
+              "frame" : "{{358, 62}, {80, 32}}",
+              "title" : "Regenerate Message",
+              "uuid" : "C54D5D6C-FF84-4580-B006-BD123BEF664D",
+              "class" : "Button",
+              "corner_radius" : 5,
+              "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "name" : "button2",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{122, 30}, {31, 30}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "6DFB30C9-D13B-440A-9508-F4B2B2DB432C",
+              "name" : "goBack",
+              "font_size" : 15,
+              "corner_radius" : 5,
+              "frame" : "{{361, 39}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,0.107143,0.107143,1.000000)",
+              "border_width" : 2,
+              "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "title" : "",
+              "action" : "go_backward_to_prev_post_lead",
+              "class" : "Button",
+              "image_name" : "iob:arrow_left_a_24",
+              "flex" : "WLR"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{161.5, 30}, {31.5, 30}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "50F3D18A-9101-4656-899E-CA825A3BDB17",
+              "image_name" : "iob:arrow_right_a_32",
+              "flex" : "WLR",
+              "corner_radius" : 5,
+              "frame" : "{{361, 39}, {80, 32}}",
+              "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+              "border_width" : 2,
+              "title" : "",
+              "action" : "go_foward_to_next_post_lead",
+              "class" : "Button",
+              "name" : "goFoward",
+              "font_size" : 15
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{22, 583}, {316, 81}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "WT",
+          "frame" : "{{465, 289}, {100, 100}}",
+          "border_color" : "RGBA(0.741176,0.741176,0.741176,1.000000)",
+          "corner_radius" : 5,
+          "class" : "View",
+          "uuid" : "F9A603E5-1AD4-4AA8-9167-CF3FC38F9F8E",
+          "name" : "view1"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {365, 682}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
